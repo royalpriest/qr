@@ -1,0 +1,176 @@
+
+
+
+.balance{
+    
+    text-align: start;
+    padding-left: 2.2rem;
+    color:hsl(215, 51%, 70%) ;
+    font-size: 18px;
+
+}
+
+
+
+.eth{
+    float: left;
+    padding-left: 2.1rem;
+    color: hsl(178, 100%, 50%);
+
+}
+
+
+.clock{
+    float: right;
+    padding-right: 2rem;
+    color:hsl(215, 51%, 70%) ;
+}
+
+
+h1{
+    text-align: center;
+    padding-right: 3.2rem;
+    color: white;
+    
+
+}
+
+
+
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    padding-top: 2rem;
+    
+}
+
+.main{
+    margin: auto;
+    width: 24rem;
+    background-color: hsl(216, 50%, 16%);
+    padding-top: 1rem;
+    padding-right: -1rem;
+    border-radius: 25px;
+    font-family:'Outfit', sans-serif; 
+
+    
+}
+
+
+hr{
+    border-top: hidden;
+    width: 19.6rem;
+    border-color:  hsl(215, 32%, 27%);
+
+}
+
+
+
+
+.image-equilibrium {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    padding-top: 1rem;
+    margin: auto ;
+    padding-left: 2.1rem;
+  }
+
+  .equilibrium {
+    width: 90%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    width: 90%;
+    opacity: 0;
+    transition: .3s ease;
+  }
+  
+  .image-equilibrium:hover .overlay {
+    opacity: 1;
+    
+    
+  }
+
+  .eye {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 58%;
+    left: 58%;
+    transform: translate(-58%, -58%);
+    -ms-transform: translate(-58%, -58%);
+    text-align: center;
+  }
+  
+.profile{
+
+    width: 95%;
+   margin: 20px auto 20px auto;
+    text-align: left;
+}
+
+
+
+  .image-avatar{
+    width: 8%;
+    float: left;
+    margin-right: 1.5rem;
+    padding-left: 2.6rem;
+  }
+
+
+.name{
+    text-align: start;
+    padding-top: 1px;
+    color:hsl(215, 51%, 70%) ;
+    font-size: 18px;
+
+}
+
+
+
+
+    .attribution { font-size: 11px; 
+                   text-align: center;
+                   padding-top: 2rem;
+                   padding-bottom: 1rem;
+                }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); }
+  
+
+
+        h1:hover{
+            color: hsl(178, 100%, 50%);
+        }
+
+
+
+
+strong{
+    color: white;
+}
+
+strong:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.equilibrium:hover .eye{
+  color: hsl(178, 100%, 50%);
+}
+
+
+
+@media screen  and (max-width:1440px;) and (min-width:375px;)    {
+  
+}
